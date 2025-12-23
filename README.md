@@ -49,4 +49,7 @@ Relationship summary:
 - One user can make many bookings (`users.id` → `bookings.user_id`).
 - Each booking references exactly one vehicle (`vehicles.id` → `bookings.vehicle_id`), and vehicles can appear in many bookings over time.
 - The logical 1-to-1 for any booking is a single user + a single vehicle.
+
+
+
 ERD LINK:https://drawsql.app/teams/team-5560/diagrams/vehicle-rental
